@@ -1,0 +1,12 @@
+It is necessary to use a GPU for computing peak memory consumption, since we are using CUDA library for this.
+
+It is necessary to make a free account on SigOpt platform (link: https://sigopt.com/ -> "Sign up" in the top right)
+to receive own API token to be able to run experiments.
+
+API token can be found on the SigOpt platform by following: click on username -> API tokens -> API token.
+Copy the API token and paste in the cell with title "Set up connection to SigOpt platform and using GPU",
+in the line os.environ["SIGOPT_API_TOKEN"] = #SIGOPT API TOKEN as a string.
+
+All important and necessary packages are installed in the Jupyter notebook.
+
+CIFAR-10 dataset is downloaded in the Jupyter notebook.
